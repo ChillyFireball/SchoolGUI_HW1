@@ -1,0 +1,118 @@
+/****** ??? ******/
+body {
+    /* Sets a fixed, unscrolling image as the background for the website. */
+    background: black;
+    background-image: url(images/background_snakeskin.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Brush Script MT, cursive;
+    font-size: 50px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-style: bold;
+    margin: 10px;
+}
+
+p {
+    color: white;
+}
+
+/****** CLASSES ******/
+.div_textBlock {
+    /* The div containing the bulk of the website's content. */
+    background: rgb(90, 90, 90);
+    border-radius: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.div_leftRightList {
+    /* This class is for divs inside list_leftRight entries. The div width is set to be the same as the right-aligned list children
+    in order to ensure that the content in the left-aligned elements isn't wider than the text in the right-aligned ones. */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+}
+
+.div_imageWithSource {
+    /* This class is for divs containing an image with a source at the bottom right. The div is to make sure that the source link
+    is right-aligned to the edge of the image.*/
+    font-style: italic;
+    font-size: 12px;
+    text-align: right;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link_imageSource {
+    /* This class is for text used as an image source link. */
+    font-style: italic;
+    color:white;
+}
+
+.list_leftRight {
+    /* This section removes default styling from the lists of the leftRight class, which are meant to have entries alternate between
+    the left and right of their div. */
+    list-style: none;
+    padding: 0px;
+    color: white;
+}
+
+.list_leftRight li:nth-child(2n) {
+    /* This section ensures that every other listed morph is right-aligned. */
+    width: 800px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.image_snakeTypes {
+    width: 500px;
+    border-radius: 5px;
+}
+
+/****** IDs ******/
+#div_main {
+    /* The main div for all other content. Margins are large enough for the background image to be visible. */
+    background: #202020;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+#div_sources {
+    /* The div for the source list at the bottom. Text is small and italic. */
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#image_main {
+    /* This centers the image at the top of the page.*/
+    border: 2px solid black;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    width: 500px;
+}
