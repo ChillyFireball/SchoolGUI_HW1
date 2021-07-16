@@ -4,14 +4,13 @@
     GUIAssignment:  Creating Your First Web Page
     Haley Santomas, UMass Lowell Computer Science, haley_santomas@student.uml.edu
     Date: 7/7/2021
-    Summary: 
+    Summary: A simple webpage with some information on different kinds of snakes. All images have a link to the site they were sourced from.
 -->
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <title>All About Snakes</title>
         <link rel="stylesheet" href="css\style.css">
-        <script src="script.js"></script>
     </head>
     <body>
         <!-- The main div containing the bulk of the website. -->
@@ -22,14 +21,16 @@
             </div>
             <h1>All About Snakes</h1>
 
+            <!-- A div containing some information about a couple different kinds of snakes. -->
             <div class="div_textBlock">
                 <h2>Popular Pet Snakes</h2>
+                <!-- A list of the different kinds of snakes. -->
                 <ul class="list_leftRight">
                     <li>
                         <div class="div_leftRightList">
                             <div class="div_imageWithSource">
                                 <img class="image_snakeTypes" src="images\snakes_corn.jpg">
-                                <a href="https://littlewildstreak.com/2016/05/28/corn-snake/" class="link_imageSource">Image Source</a>
+                                <a href="http://thepetwell.com/corn-snakes-facts/" class="link_imageSource">Image Source</a>
                             </div>
                             <h3>Corn Snake</h3>
                             <p>
@@ -65,7 +66,7 @@
                                 The western hognose snake is named for its characteristic upturned snout, which they use for burrowing into the ground in the wild.
                                 While generally easy to care for, they can be extremely picky eaters in captivity, often requiring their food to be scented with one of
                                 their natural prey items in the wild, like toads. If they can be made to eat, however, their expected lifespan in captivity is 15 to 20 years.
-                                They're small snakes, rarely growing longer than 2 to 3 feet long.
+                                They're small snakes, rarely growing longer than 2 to 3 feet.
                             </p>
                         </div>
                     </li>
@@ -78,7 +79,8 @@
                             <h3>Garter Snake</h3>
                             <p>
                                 The garter snake is unique among snakes in that it's one of only a few species that do best living communally. In addition, unlike their egg-laying brethren,
-                                garter snakes are <em>ovoviviparous,</em> meaning their eggs hatch within the body of the parent and are born live.
+                                garter snakes are <em>ovoviviparous,</em> meaning their eggs hatch within the body of the parent and are born live. If they feel threatened, they may musk the
+                                perceived threat with scent glands at the base of their tail.
                             </p>
                         </div>
                     </li>
@@ -90,20 +92,25 @@
                             </div>
                             <h3>Bullsnake</h3>
                             <p>
-                                The bullsnake is
+                                The bullsnake is a medium-sized snake that grows to around 3 to 5 feet. Like rattlesnakes, they vibrate their tails as a defensive maneuver. (Unlike rattlesnakes,
+                                the tail doesn't make a rattling sound.) While temperment varies between individual snakes, juvenile bullsnakes are known for being a bit more ornery than adults.
+                                They live for about 12 years in the wild, but in captivity, their lifespan is closer to 30.
                             </p>
                         </div>
                     </li>
                 </ul>
             </div>
 
+            <!-- A div of the same class as the one above (div_textBlock) containing some info about snake genetics, shown through tables. -->
             <div class="div_textBlock">
                 <h2>Color Morphs</h2>
                 <p>Different snake species all have their own set of color morphs, but a few of them are common across multiple types.</p>
             </div>
 
+            <!-- Another div with some other random snakes. -->
             <div class="div_textBlock">
                 <h2>Some Other Interesting Snakes</h2>
+                <!-- Another list of snakes using the same classes, and therefore the same formatting as the earlier list. -->
                 <ul class="list_leftRight">
                     <li>
                         <div class="div_leftRightList">
@@ -114,14 +121,44 @@
                             <h3>Arabian Sand Boa</h3>
                             <p>
                                 The Arabian Sand Boa has a face so distinct that it almost doesn't look real. In the wild, their upturned
-                                eyes enable them to see out of the sand without popping their head up all the way.
+                                eyes enable them to see out of the sand without popping their head up all the way. While they aren't difficult
+                                to keep in captivity, they're rare in the pet trade. Additionally, sand boas are unpopular due to their tendency
+                                to remain buried and out of sight most of the time.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="div_leftRightList">
+                            <div class="div_imageWithSource">
+                                <img class="image_snakeTypes" src="images\snakes_dragon.jpg">
+                                <a href="https://www.creaturesofnightshade.com/dragonsnakecareguide" class="link_imageSource">Image Source</a>
+                            </div>
+                            <h3>Dragon Snake</h3>
+                            <p>
+                                Dragon snakes have raised scales along their spine that make them look, as the name would imply, quite similar to a dragon. Unlike
+                                their namesake, however, they're extremely skinny and fragile. While some people keep them as pets, they're difficult to breed in
+                                captivity, meaning most captive specimens are caught in the wild.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="div_leftRightList">
+                            <div class="div_imageWithSource">
+                                <img class="image_snakeTypes" src="images\snakes_bushViper.jpg">
+                                <a href="https://explore.newsner.com/bush-viper-snakes-rare-beautiful-creatures-dragons-wildlife" class="link_imageSource">Image Source</a>
+                            </div>
+                            <h3>Bush Viper</h3>
+                            <p>
+                                The bush viper is a rare snake that can only be found in tropical regions in Africa. While beautiful, they're also incredibly
+                                venomous. This venom can cause internal hemorrhaging, making it potentially fatal if untreated. Because of how unlikely it is
+                                for a human to encounter this snake in the wild, however, there is no antivenom.
                             </p>
                         </div>
                     </li>
                 </ul>
             </div>
 
-            <!-- Sources. -->
+            <!-- Image sources that didn't fit anywhere else. -->
             <div id="div_sources">
                 <a href="https://www.pinterest.com/pin/245164773435210195/" class="link_imageSource">Background Image Source</a>
             </div>
