@@ -17,6 +17,7 @@ body {
 }
 
 h1 {
+    /* The main header for the website. */
     text-align: center;
     color: white;
     font-family: Brush Script MT, cursive;
@@ -26,6 +27,7 @@ h1 {
 }
 
 h2 {
+    /* Headers for subsections of the website. */
     text-align: center;
     color: white;
     font-size: 25px;
@@ -34,13 +36,29 @@ h2 {
 }
 
 h3 {
+    /* Headers for snake names. */
     text-align: center;
     color: white;
     font-style: bold;
     margin: 10px;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+table, th, tr {
+    /* Format and coloration for all tables. */
+    color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
 p {
+    /* Text. */
     color: white;
 }
 
@@ -82,7 +100,7 @@ p {
 }
 
 .list_leftRight {
-    /* This section removes default styling from the lists of the leftRight class, which are meant to have entries alternate between
+    /* This class removes default styling from the lists of the leftRight class, which are meant to have entries alternate between
     the left and right of their div. */
     list-style: none;
     padding: 0px;
@@ -90,13 +108,14 @@ p {
 }
 
 .list_leftRight li:nth-child(2n) {
-    /* This section ensures that every other listed morph is right-aligned. */
+    /* This class ensures that every other listed morph is right-aligned. */
     width: 800px;
     margin-left: auto;
     margin-right: 0px;
 }
 
 .image_snakeTypes {
+    /* Images of snakes. */
     width: 500px;
     border-radius: 5px;
 }
@@ -135,4 +154,9 @@ p {
     margin-right: auto;
     margin-bottom: 2px;
     width: 500px;
+}
+
+#table_mutations th {
+    /* This left-aligns table heads in the mutations. */
+    text-align: left;
 }
